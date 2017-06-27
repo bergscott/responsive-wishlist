@@ -44,6 +44,10 @@ h3, h4{
     margin: 12px 8px 5px 10px;
 }
 
+h4 {
+    margin-bottom: 0;
+}
+
 a {
     color: inherit;
 }
@@ -53,11 +57,11 @@ a:hover {
 }
 
 ul {
-    margin: 10px 5px 5px 5px;
+    margin: 0 5px 5px 5px;
 }
 
 svg {
-    margin: 10px 8px 5px 20px;
+    margin: 0 8px 5px 20px;
 }
 
 hr {
@@ -105,6 +109,7 @@ tr:nth-child(even) {
 
 .horizontal-list {
     padding-left: 20px;
+    margin-bottom: 0;
 }
 
 .horizontal-list li {
