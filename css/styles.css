@@ -181,10 +181,6 @@ footer {
         order: -1;
         width: 200px;
     }
-
-    .container {
-        padding: 0;
-    }
 }
 
 @media screen and (max-width: 454px) {
@@ -192,9 +188,14 @@ footer {
         margin-right: auto;
         margin-left: auto;
     }
+
     .games-image {
         order: 1;
         padding-top: 20px;
+    }
+
+    .container {
+        padding: 0;
     }
 }
 
