@@ -148,6 +148,7 @@ tr:nth-child(even) {
     order: 5;
     display: flex;
     flex-wrap: wrap;
+    align-items: flex-end;
 }
 
 .miscellaneous {
