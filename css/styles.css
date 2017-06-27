@@ -56,6 +56,10 @@ a:hover {
     color: #DB2B19;
 }
 
+ul {
+    margin: 10px 5px 5px 5px;
+}
+
 hr {
     display: block;
     height: 1px;
@@ -83,10 +87,6 @@ tr:nth-child(even) {
 
 .table-box {
     flex-grow: 1;
-}
-
-ul {
-    margin: 10px 5px 5px 5px;
 }
 
 .horizontal-list {
