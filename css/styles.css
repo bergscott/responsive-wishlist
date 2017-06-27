@@ -221,7 +221,9 @@ footer {
     .collapsible {
         display: none;
     }
-        h1 {
+
+    h1 {
         font-size: 2em;
+        margin: 0.5em;
     }
 }
