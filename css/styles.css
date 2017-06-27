@@ -13,6 +13,7 @@ body {
     max-width: 1075px;
     margin-left: auto;
     margin-right: auto;
+    padding: 0 8px;
     display: flex;
     flex-wrap: wrap;
     align-items: flex-end;
@@ -179,6 +180,10 @@ footer {
         padding: 0 5px;
         order: -1;
         width: 200px;
+    }
+
+    .container {
+        padding: 0;
     }
 }
 
