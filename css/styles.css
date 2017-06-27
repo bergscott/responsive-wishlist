@@ -38,6 +38,15 @@ a:hover {
     color: #DB2B19;
 }
 
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em -8px;
+    padding: 0;
+}
+
 table {
     font-family: arial, sans-serif;
     border-collapse: collapse;
@@ -121,6 +130,12 @@ main::after {
     order: 6;
 }
 
+footer p {
+    font-size: 0.75em;
+    margin: -8px 0 8px 0;
+    text-align: center;
+}
+
 
 @media screen and (max-width: 1023px) {
     .table-box {
@@ -153,9 +168,3 @@ main::after {
         font-size: 2em;
     }
 }
-/*
-@media screen and (min-width: 420px) {
-    h1 {
-        font-size: 2.5em;
-    }
-}*/
